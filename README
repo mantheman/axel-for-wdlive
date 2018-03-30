@@ -3,6 +3,23 @@ Axel Home:
     See http://axel.alioth.debian.org/ for latest information on axel
 
 /*************************\
+* Use the exe file directly *
+\*************************/
+
+git clone git://github.com/soyoeml/axel-for-wdlive.git
+cd axel-for-wdlive
+./axel --help
+
+/*************************\
+* How to build *
+\*************************/
+
+./configure
+ipkg install gettext
+make
+make install
+
+/*************************\
 * Supported architectures *
 \*************************/
 
